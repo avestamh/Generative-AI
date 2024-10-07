@@ -8,7 +8,7 @@ from langchain.vectorstores import FAISS
 from langchain.llms import huggingface_hub # to use huggingface language model for generating answer or perform other nlp taks
 
 # Step 1: seth the HuggingFace API token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "Your HuggingFace API"
 
 # Step 2: Load the Pdf document
 path = 'home/doc.pdf'
