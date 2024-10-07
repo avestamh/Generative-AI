@@ -119,7 +119,7 @@ class OpenAIAuthenticator:
     def authenticate(api_key):
         if not api_key: return False
 
-        os.environ['OPENAI_API_KEY'] = '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'
+        os.environ['OPENAI_API_KEY'] = 'your OpenAI Key'
         try:
             llm = OpenAI()
             if llm("hi"): return True
