@@ -42,7 +42,7 @@ embeddings = AzureOpenAIEmbeddings(deployment=OPENAI_ADA_EMBEDDING_DEPLOYMENT_NA
                                    model=OPENAI_ADA_EMBEDDING_MODEL_NAME,
                                    azure_endpoint=OPENAI_DEPLOYMENT_ENDPOINT,
                                    openai_api_type="azure",
-                                   chunk_size=1)
+                                   chunk_size=512)
 
 # Initialize gpt-35-turbo and our embedding model
 # load the faiss vector store we saved into memory
