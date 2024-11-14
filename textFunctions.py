@@ -1,3 +1,8 @@
+
+#--------------------------
+# written by Sadra Avestan
+# Oct 2023
+#------------------------
 from langchain.text_splitter import CharacterTextSplitter
 from PyPDF2 import PdfReader
 # from langchain.agents import create_csv_agent
