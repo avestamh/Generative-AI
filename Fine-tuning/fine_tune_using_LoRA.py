@@ -1,4 +1,4 @@
-## LoRa can only be used on models where you have access to the full architecture (like Hugging Face models), and not through OpenAI's API.
+## LoRA can only be used on models where you have access to the full architecture (like Hugging Face models), and not through OpenAI's API.
 
 ## 1- Install dependencies
 ## pip install transformers datasets peft accelerate
@@ -24,7 +24,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
 
-## 4- _____________ set up LoRa for Fine-Tunning_____________________
+## 4- _____________ set up LoRA for Fine-Tunning_____________________
 # Here I used peft library to fine-tune the model with LoRan, focusing on the specific layers to adapt using low-rank updates
 
 from peft import LoraConfig, get_peft_model
@@ -38,10 +38,10 @@ lora_config = LoraConfig(
     bias='none'  # Bias handling (can be "none", "all", or "lora_only")
 )
 
-## Add LoRa modules to the pre-trained model
+## Add LoRA modules to the pre-trained model
 model = get_peft_model(model, lora_config)
 
-# Print model with LoRa layers
+# Print model with LoRA layers
 print(model)
 
 ## 5- ___________Tokenize the Dataset________________
@@ -55,7 +55,7 @@ tokenized_train = train_data.map(tokenize_function, batched=True)
 tokenized_test = test_data.map(tokenize_function, batched=True)
 
 ## 6- _________Fine-Tune the model______________________
-## Now we can fine-tune the model using the LoRa-adapted layers. use Hugging Face’s Trainer class to handle training
+## Now we can fine-tune the model using the LoRA-adapted layers. use Hugging Face’s Trainer class to handle training
 
 from transformers import Trainer, TrainingArguments
 
@@ -74,7 +74,7 @@ training_args = TrainingArguments(
 )
 
 ## Create Trainer instance, Trainer is a high-level API provided by Hugging Face to handle model training.
-## Only the LoRa layers are fine-tuned, the rest of the model remains frozen. save memory and computer power
+## Only the LoRA layers are fine-tuned, the rest of the model remains frozen. save memory and computer power
 
 trainer = Trainer(
     model=model,
