@@ -94,4 +94,4 @@ print(f"Evaluation Results: {eval_results}")
 trainer.save_model("./lora_finetuned_gpt2")
 
 # Inform the user
-print("Fine-tuning with LoRa is complete! The model has been saved.")
+print("Fine-tuning with LoRA is complete! The model has been saved.")
