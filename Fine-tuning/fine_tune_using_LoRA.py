@@ -1,5 +1,6 @@
 ## LoRA can only be used on models where you have access to the full architecture (like Hugging Face models), and not through OpenAI's API.
-
+# Author: Sadra Avestan
+# Sep 2024
 ## 1- Install dependencies
 ## pip install transformers datasets peft accelerate
 
