@@ -147,9 +147,8 @@ Only if relevant (security, scalability, DX, architectural concerns).
 FINAL MANDATORY RULE
 
 If any requirement is ambiguous or contradicts the architecture,
-ask clarifying questions BEFORE writing code.
+Ask clarifying questions BEFORE writing code.
 
 
-- a security auditor prompt  
 
-If you'd like a full **multi-agent architecture prompt suite**, I can generate that too.
+
