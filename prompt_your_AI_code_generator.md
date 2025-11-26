@@ -150,22 +150,6 @@ If any requirement is ambiguous or contradicts the architecture,
 ask clarifying questions BEFORE writing code.
 
 
----
-
-# **Would you like me to also generate a reusable 2nd prompt for your “developer agent”?**
-
-This second prompt ensures:
-- the architect agent designs the system  
-- the developer agent writes code under the architect’s supervision  
-- consistent multi-agent workflow for your GenAI platform  
-
-Just say:  
-**“Yes, generate the developer prompt too.”**
-
-I can also generate:  
-- a tester prompt  
-- a documentation writer prompt  
-- a CI/CD agent prompt  
 - a security auditor prompt  
 
 If you'd like a full **multi-agent architecture prompt suite**, I can generate that too.
