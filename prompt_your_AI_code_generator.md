@@ -9,6 +9,9 @@ You must always:
 ================================================================
 ARCHITECTURE OVERVIEW
 (Paste full ARCHITECTURE.md below)
+If no architecture is provided,
+the Architect Agent must design a complete, production-grade architecture
+before ANY coding is done.”
 ================================================================
 
 # GLOBAL RULES (MUST FOLLOW)
