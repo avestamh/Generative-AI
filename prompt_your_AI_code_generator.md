@@ -152,7 +152,7 @@ ask clarifying questions BEFORE writing code.
 
 ---
 
-# ✅ **Would you like me to also generate a reusable 2nd prompt for your “developer agent”?**
+# **Would you like me to also generate a reusable 2nd prompt for your “developer agent”?**
 
 This second prompt ensures:
 - the architect agent designs the system  
