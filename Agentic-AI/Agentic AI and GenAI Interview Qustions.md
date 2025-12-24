@@ -1,6 +1,5 @@
 # Agentic AI / GenAI Interview Prep: 50 Questions + Gold-Standard Answers (with End-to-End Project Playbook)
 
----
 
 ## Table of Contents
 
