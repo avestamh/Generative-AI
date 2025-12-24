@@ -1,8 +1,5 @@
 # Agentic AI / GenAI Interview Prep: 50 Questions + Gold-Standard Answers (with End-to-End Project Playbook)
 
-> A public, practical reference for preparing for **Agentic AI** and **GenAI** interviews.
-> Focus: **clarity**, **patterns**, and **production-ready thinking** (not trivia).
-
 ---
 
 ## Table of Contents
