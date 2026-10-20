@@ -97,7 +97,7 @@ For example, self-hosting LangGraph with AWS Bedrock means paying for Bedrock an
 - **Pydantic AI** provides an agent framework built around typed tools, dependencies, and outputs.
 - Using a Pydantic model in LangGraph does **not** mean the application uses Pydantic AI.
 
-## Interview answer
+## Which one do you choose for your agentic AI tasks?
 
 > I choose based on execution control, agent collaboration, and data contracts. LangGraph emphasizes stateful orchestration, CrewAI emphasizes role-based teams and flows, and Pydantic AI emphasizes typed agent development. I then assess recovery, approvals, observability, evaluation, and integration requirements against the actual use case.
 
