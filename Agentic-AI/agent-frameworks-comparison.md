@@ -111,4 +111,4 @@ For example, self-hosting LangGraph with AWS Bedrock means paying for Bedrock an
 - [Pydantic AI documentation](https://ai.pydantic.dev/)
 - [Pydantic AI repository and license](https://github.com/pydantic/pydantic-ai)
 
-Features and commercial offerings evolve. Check the official documentation and licenses before adopting a specific release.
+NOte: Features and commercial offerings evolve. Check the official documentation and licenses before adopting a specific release.
